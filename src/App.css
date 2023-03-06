@@ -36,3 +36,208 @@
     transform: rotate(360deg);
   }
 }
+
+::-webkit-scrollbar{
+  width: 1px;
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #000;
+}
+
+#onlynav{
+  overflow: auto;
+}
+
+#sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+#navvbarr{
+  background-color:azure;
+
+}
+#ilogo{
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+  filter: drop-shadow(2px 2px 2px black);
+  border-radius: 15%;
+}
+
+#i{
+  width: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#stride{
+  color: #053a9a;
+  font-size: 20px;
+margin-top: 7%;
+  margin-bottom: 20%;
+}
+
+#il{
+  width: 8%;
+}
+
+#navcontent{
+  color:rgb(88, 87, 87);
+  margin-left: 4%;
+  margin-bottom: 12%;
+}
+
+#navcontent:hover{
+  color:rgb(2, 2, 150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:azure;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 35px;
+  cursor: pointer;
+  background:#2228d0;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-left: 2%;
+  margin-top: 1%;
+} 
+
+#main {
+  transition: margin-left .5s;
+  background:#2228d0;
+  height: 300px;
+}
+
+#wel{
+  color: white;
+  font-size: 18px;
+}
+
+#ad{
+  color: white;
+  font-size: 30px;
+}
+
+.dis{
+  display: flex;
+  flex-direction: row;
+}
+
+.text{
+  margin-left: 5%;
+}
+
+.dropdown{
+  margin-top: -2%;
+  margin-left: 80%;
+}
+
+#dropdownMenuButton{
+  border-radius: 50%;
+  width: 90%;
+  border: 3px solid white;
+  background: orangered;
+}
+
+#out{
+  margin-right: 80%;
+  
+}
+
+.add{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.vese{
+  position: relative;
+  top: -20%;
+  width: 78%;
+  margin-left: 20%;
+  background: white;
+  height: 70vh;
+  overflow-x: hidden;
+}
+
+.m{
+  background: rgb(201, 200, 200);
+  height: 76vh;
+}
+
+#bb{
+  border-radius: 0%;
+  background-color: darkblue;
+}
+
+#last{
+  display: flex;
+  position: fixed;
+  right: 4%;
+}
+
+
+.ve{
+  position: relative;
+  margin-top: -6%;
+  width: 78%;
+  margin-left: 20%;
+  background: rgb(249, 127, 127);
+  height: 70vh;
+}
